@@ -1,0 +1,10 @@
+NaoH=int(input("NaOH: "))
+larutan=int(input("larutan:"))
+ar_Na=23
+ar_O=16
+ar_H=1
+mr=int(ar_Na+ar_O+ar_H)
+m1=int(NaoH/mr)
+m2=int(1000/larutan)
+molar=int(m1*m2)
+print("molarnya adalah: ",molar)
